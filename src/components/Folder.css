@@ -1,0 +1,89 @@
+/* src/components/Folder.css */
+.folder {
+  margin-left: 10px;
+}
+
+.folder-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 4px;
+  position: relative;
+}
+
+.folder-header:hover {
+  background-color: #ddd;
+}
+
+.folder-contents {
+  margin-left: 20px;
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.file:hover {
+  background-color: #f0f0f0;
+}
+
+.add-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-item input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-item button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-item button:hover {
+  background-color: #0056b3;
+}
+
+.menu {
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-options {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-options button {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: left;
+}
+
+.menu-options button:hover {
+  background-color: #f0f0f0;
+}
