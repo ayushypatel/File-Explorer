@@ -98,7 +98,7 @@ A React-based file explorer application to navigate directories, view files, and
 5. Push the code to GitHub:
 
     ```bash
-    git push -u origin master
+    git push -u origin main
     ```
 
 
